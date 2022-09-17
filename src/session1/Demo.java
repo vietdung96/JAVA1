@@ -38,7 +38,8 @@ public class Demo {
         PhanSo o = new PhanSo();
         o.setA(3);
         o.setB(4);
-        o.inPhanso();
+        o.inPhanSo();
+        o.nghichdaoPhanSo();
 
     }
 

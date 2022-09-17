@@ -23,12 +23,16 @@ public class PhanSo {
         B = b;
     }
 
-    public boolean ktPhanso(){
+    public boolean ktPhanSo(){
     return B!=0;
     }
-    public void inPhanso(){
-        if (!ktPhanso())  System.out.println("Mau so khong duoc bang 0");
+    public void inPhanSo(){
+        if (!ktPhanSo())  System.out.println("Mau so khong duoc bang 0");
         System.out.println("Phan so la :" +Math.abs(A)+ "/" + Math.abs(B));
+    }
+    public void nghichdaoPhanSo(){
+        if (A==0) System.out.println("Mau so khong duoc bang 0");
+        System.out.println("Nghich dao phan so la " +B+ "/" +A);
     }
 }
 
