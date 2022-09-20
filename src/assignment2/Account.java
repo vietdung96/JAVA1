@@ -48,4 +48,24 @@ public class Account {
         return amount;
     }
 
+    public Account tranferTo(Account B){
+        int amount;
+        System.out.println("Nhập số tiền cần chuyển");
+        amount = sc.nextInt();
+
+         Account chuyen = new Account();
+         if (amount<this.balance) {
+             this.balance = this.balance - amount;
+             B.balance = B.balance + amount;
+             System.out.println("Số dư hiện tại là " + this.balance);
+             System.out.println("Số dư trong tài khoản B là :" +B.balance);
+
+         }else {
+             System.out.println("Số tiền không đủ để chuyển khoản");
+             return tranferTo(B);
+
+         }
+            return chuyen;
+    }
+
 }
