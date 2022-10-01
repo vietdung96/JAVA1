@@ -5,21 +5,18 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="405.0" prefWidth="604.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="493.0" prefWidth="604.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <TextField layoutX="72.0" layoutY="49.0" />
-      <TextField layoutX="72.0" layoutY="101.0" />
-      <TextField layoutX="72.0" layoutY="156.0" />
-      <TextField layoutX="72.0" layoutY="215.0" />
+      <TextField layoutX="72.0" layoutY="49.0" promptText="Họ Tên"/>
+      <TextField layoutX="72.0" layoutY="101.0" promptText="Email"/>
+      <TextField layoutX="72.0" layoutY="156.0" promptText="Tuổi"/>
+      <TextField layoutX="72.0" layoutY="215.0" promptText="Địa chỉ"/>
       <Text layoutX="72.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Họ tên" wrappingWidth="54.6494140625" />
       <Text layoutX="72.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
       <Text layoutX="75.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tuổi" />
       <Text layoutX="72.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Địa chỉ" textAlignment="CENTER" />
       <Button layoutX="102.0" layoutY="261.0" mnemonicParsing="false" text="Xác nhận" />
-      <Text layoutX="58.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Họ Tên : Trần Việt Dũng" />
-      <Text layoutX="58.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email:lkjfdlkg@gmail.com" />
-      <Text layoutX="58.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tuổi : 26" />
-      <Text layoutX="58.0" layoutY="399.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Địa chỉ : 8 tôn thất thuyết , cầu giấy , hà nội" />
+      <Text layoutX="58.0" layoutY="399.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <TextArea layoutX="47.0" layoutY="328.0" prefHeight="129.0" prefWidth="320.0" text="Họ Tên : Trần Việt Dũng&#10;Email:lkjfdlkg@gmail.com&#10;&#10;Tuổi : 26&#10;Địa chỉ : 8 tôn thất thuyết , cầu giấy , hà nội" />
    </children>
 </Pane>
