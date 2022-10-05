@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="assignment6.form.addController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Text layoutX="186.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="THÊM MÔNHỌC" />
+        <TextField layoutX="75.0" layoutY="144.0" promptText="MÔN HỌC" />
+        <TextField layoutX="75.0" layoutY="99.0" promptText="ID" />
+        <Button  layoutX="156.0" layoutY="200.0" mnemonicParsing="false" text="THÊM" />
+    </children>
+</Pane>
