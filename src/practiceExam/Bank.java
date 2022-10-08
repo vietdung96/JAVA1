@@ -29,7 +29,7 @@ public class Bank {
     }
     public void calculateInterest(){
         double interest = balance * (rate/1200);
-        System.out.println(+interest);
+        System.out.println( "interest "+interest);
 
     }
 
